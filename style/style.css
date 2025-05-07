@@ -4,7 +4,9 @@ body {
     flex-direction: row;
     justify-content: center;
     overflow: visible;
-
+    background-image: url(../logo/Governoran_ny_Faritra_Anosy_782deab311.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #two {
@@ -111,7 +113,7 @@ body {
     border-top-right-radius: 1vw;
     margin-top: -15vw;
     margin-left: -5vw;
-    transform: rotate(45deg); 
+    transform: rotate(45deg);
 
 }
 
@@ -123,7 +125,7 @@ body {
     border-top-right-radius: 1vw;
     margin-top: -17vw;
     margin-left: 26vw;
-    transform: rotate(45deg); 
+    transform: rotate(45deg);
 }
 
 #segment_1 {
@@ -133,7 +135,7 @@ body {
     height: 7vw;
     border: 1px solid blue;
     background-color: blue;
-    transform: rotate(45deg); 
+    transform: rotate(45deg);
 }
 
 #segment_2 {
@@ -143,7 +145,7 @@ body {
     height: 7vw;
     border: 1px solid blue;
     background-color: blue;
-    transform: rotate(45deg); 
+    transform: rotate(45deg);
 }
 
 #footer {
