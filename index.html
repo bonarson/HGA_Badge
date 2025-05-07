@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge</title>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+    <div id="two">
+        <form id="userForm" class="form-container">
+            <div class="form-group">
+                <label for="inputNom">Nom</label>
+                <input type="text" id="inputNom" required />
+            </div>
+            <div class="form-group">
+                <label for="inputPrenom">Prénom</label>
+                <input type="text" id="inputPrenom" required />
+            </div>
+            <div class="form-group">
+                <label for="inputInstitut">Institut</label>
+                <input type="text" id="inputInstitut" required />
+            </div>
+            <button type="submit" class="btn-submit">🎫 Générer le badge</button>
+            <button type="button" class="btn-download" id="downloadBadge">📥 Télécharger le badge en image</button>
+
+
+        </form>
+
+
+        <div id="container_cadre">
+            <div id="rectangle_bleu"></div>
+            <div id="pic_bleu">
+                <div id="cercle_img"></div>
+            </div>
+            <h1 id="titl1">Hoavinign'</h1>
+            <h1 id="titl2">Anôsy</h1>
+            <h1 id="hga">H.G.A</h1>
+
+            <div id="sary">
+                <h1>image</h1>
+            </div>
+
+            <div id="formulaire_cadre">
+                <h1 id="Nom">📃 Nom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;</h1>
+                <h1 id="Prenom">📃 Prénom&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</h1>
+                <h1 id="Institut">🎓 Institut&nbsp;&nbsp;&nbsp;:&nbsp;</h1>
+            </div>
+
+            <div id="semi_pic"></div>
+            <div id="segment_1"></div>
+            <div id="semi_pic2"></div>
+            <div id="segment_2"></div>
+
+            <div id="qrCode"></div>
+
+            <div id="footer">
+                <h1 id="txt_f">Badge de membre H.G.A &nbsp;|&nbsp; Inscrit le 15-12-2024</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- Formulaire stylisé -->
+
+
+
+    <!-- Badge -->
+
+
+    <!-- Librairie QRCode -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+
+</body>
+
+</html>
